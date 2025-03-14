@@ -19,7 +19,7 @@ public class Task003_Grade_Calculator {
                         (score>=80 && score<=89) ? "B" :
                                 (score>=70 && score<=79) ? "C" :
                                         (score>=60 && score<=69) ? "D":
-                                                (score>=0 && score<=59) ? "F" : "Invalid";
+                                                (score>=0 && score<=59) ? "F" : "Invalid score";
         System.out.println("Your Grade is : "+grade);
 
 
