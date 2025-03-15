@@ -2,7 +2,7 @@ package Tasks;
 
 import java.util.Scanner;
 
-public class Task09_Triangle_Classifier {
+public class Task009_Triangle_Classifier {
     public static void main(String[] args) {
 
         // Triangle Classifier:
