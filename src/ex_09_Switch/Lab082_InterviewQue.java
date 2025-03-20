@@ -1,6 +1,6 @@
 package ex_09_Switch;
 
-public class Lab082_Interview {
+public class Lab082_InterviewQue {
     public static void main(String[] args) {
         char ch = 'A';
         switch (ch) {
