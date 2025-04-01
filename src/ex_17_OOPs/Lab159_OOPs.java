@@ -2,7 +2,7 @@ package ex_17_OOPs;
 
 public class Lab159_OOPs {
     public static void main(String[] args) {
-        Person Amit;
+        Person ALab167_OOps_P2mit;
         Person p2 = new Person();
         // Person - Class
         // p2 - Object Reference
@@ -21,7 +21,7 @@ public class Lab159_OOPs {
 }
 
 class Person {
-
+    // Attribute | Properties |  Data Members | Instance variables
     String name;
     String phone;
     String colour_of_eyes;
@@ -31,6 +31,7 @@ class Person {
     double weight;
     boolean is_Female;
 
+    // Behaviour | Function | Method
     void sleep()
     {
         System.out.println("Sleeping");
