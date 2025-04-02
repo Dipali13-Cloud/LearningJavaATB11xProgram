@@ -20,7 +20,6 @@ public class Lab159_OOPs {
 
 }
 
-
     class Person {
     // Attribute | Properties |  Data Members | Instance variables
     String name;
