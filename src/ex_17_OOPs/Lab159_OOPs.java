@@ -20,7 +20,8 @@ public class Lab159_OOPs {
 
 }
 
-class Person {
+
+    class Person {
     // Attribute | Properties |  Data Members | Instance variables
     String name;
     String phone;
@@ -37,7 +38,7 @@ class Person {
         System.out.println("Sleeping");
     }
 
-    String grret(String name)
+    String greet(String name)
     {
         return "Hello"+name;
     }
