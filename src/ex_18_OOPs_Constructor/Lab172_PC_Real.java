@@ -6,7 +6,7 @@ public class Lab172_PC_Real {
         Person p2 = new Person("Priya",98989898,"XYZ");
 
         Person p3 = new Person();
-        p3.name = "Shikha";
+        p3.name = "Shikha";                           // not a good way to assign the values because we can pass paras when the object is created
         System.out.println(p3.name);
 
         Person p4 = new Person("Siya",823424242);
