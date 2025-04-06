@@ -7,4 +7,4 @@ public class Lab180_Hybrid {
 class GF{}
 class Father{}
 class Mother{}
-// class Son extends Father,Mother{}          not allowed
+// class Son extends Father,Mother{}          // not allowed
