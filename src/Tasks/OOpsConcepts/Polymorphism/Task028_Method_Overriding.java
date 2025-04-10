@@ -9,17 +9,22 @@ public class Task028_Method_Overriding {
         s2.draw();
     }
 }
+
+//
 class Shapes{
     void draw(){
         System.out.println("Drawing a shape.");
     }
 }
+
+//
 class Square extends Shapes{
     void draw(){
         System.out.println("Drawing a Square.");
     }
 }
 
+//
 class Circle extends Shapes{
     void draw(){
         System.out.println("Drawing a Circle.");
