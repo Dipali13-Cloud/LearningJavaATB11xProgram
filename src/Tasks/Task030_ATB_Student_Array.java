@@ -1,10 +1,10 @@
 package Tasks;
 
-public class Task_030_ATB_Student_Array {
+public class Task030_ATB_Student_Array {
     public static void main(String[] args) {
         ATBStudents[] students = new ATBStudents[3];
 
-        students[0] = new ATBStudents(101,"Dipa",31,"Java");
+        students[0] = new ATBStudents(101,"Dipali",31,"Java");
         students[1] = new ATBStudents(102,"Priya",31,"Python");
         students[2] = new ATBStudents(103,"Nutan",31,"C##");
 
