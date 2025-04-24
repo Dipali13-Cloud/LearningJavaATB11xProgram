@@ -8,7 +8,7 @@ public class Lab186_ICICI_Ecap {
         System.out.println(bal);
 
 
-        b.setBalance(10000);
+        b.setBalance(100000);
 
         long after_up_bal = b.getBalance();
         System.out.println(b.getBalance());
