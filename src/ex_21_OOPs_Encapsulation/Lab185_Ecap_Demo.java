@@ -12,13 +12,13 @@ public class Lab185_Ecap_Demo {
         System.out.println("--------------------------");
 
 
-        GoodVWOLogin g = new GoodVWOLogin("dipa","dipa@00");
+        GoodVWOLogin g = new GoodVWOLogin("dipa","dipa@000");
         System.out.println(g.getUsername());
         System.out.println(g.getPassword());
 
         System.out.println("--------------------------");
 
-        g.setUsername("Divya");
+        g.setUsername("Seema");
         System.out.println(g.getUsername());
 
         g.setPassword("D@90",false);
@@ -55,7 +55,7 @@ class GoodVWOLogin{
         if(isAdmin) {
             this.password = password;
         }else {
-            System.out.println("You are not allowed!");
+            System.out.println("You are not allowed...");
         }
     }
 
